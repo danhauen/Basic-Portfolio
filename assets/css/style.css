@@ -7,6 +7,7 @@ ul {
 
 }
 
+
 li {
     display: inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -31,11 +32,10 @@ div {
     margin: 0;
   }
 
-header {
-    size: ;
+header {   
     background-color: #ffffff;
     border: 1px solid #cccccc
-     
+    
 }
 
 hr {
@@ -75,14 +75,17 @@ p,form {
     margin-bottom: 15px;
     font-size: 50px solid #777777;
     line-height: 28px;
+    overflow: auto;
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 888px;
     min-height: 100%;
     padding: 35px;
     margin: 0 auto;
-   
+    margin-top: 20px;
+    
+}
 }
 
 
