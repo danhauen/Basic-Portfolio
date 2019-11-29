@@ -3,18 +3,12 @@ body {
     background-image: url(../images/white-waves.png);  
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-}
-
-
 ol {
     display: inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 50px solid #777777;
     font-size: large;
-    text-align: right;
+    align-self: auto;
 }
 
 a:link {
@@ -63,7 +57,7 @@ header {
 }
 
 hr {
-    display: ;
+    display: inline-block;
     height: 2px;
     border: o;
     border-top: 1px solid #cccccc;
@@ -76,7 +70,8 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline;
     color: #ffffff;
-    background-color: #4aaaa5; background-size: 68px;    
+    background-color: #4aaaa5; background-size: 68px;
+    padding-left: 60px;    
 }
 
 .box-title {
