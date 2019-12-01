@@ -4,24 +4,32 @@ body {
 }
 
 header {   
-   
-    top: 0;
+    width: 100%;
     background-color: #ffffff;
     border: 1px solid #cccccc;
-    padding-right: 0px;
+    display: inline-block;
 }
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;
-    width: 400px;
-    padding: 0px;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding-top: 20.440px;
+    padding-bottom: 20.440px;
     margin: 0px;
+    border: 1px solid #cccccc;
+    background-color: #4aaaa5;
+    margin-left: 230px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 ol {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
+    padding-left: 337px;
+
 }
 
 li {
@@ -29,11 +37,11 @@ li {
 }
 
 li a{
-    display: inline;
+    display: inline-block;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 50px solid #777777;
     text-decoration: none;
-    padding-right:  40px;
+    padding-left:  40px;
 }
 
 a:link {
@@ -116,9 +124,9 @@ p,form {
 }
 
 .clearfix {
-    overflow: auto;
+    overflow: hidden;
     border: none;
     width: 0px;
     float: right;
-    padding: right240px;
+    
   }
