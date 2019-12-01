@@ -5,9 +5,11 @@ body {
 
 header {   
     width: 100%;
+    max-height: 79px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     display: inline-block;
+    
 }
 
 .name {
@@ -15,8 +17,8 @@ header {
     color: #ffffff;
     display: inline-block;
     width: auto;
-    padding-top: 20.440px;
-    padding-bottom: 20.440px;
+    padding-top: 21px;
+    padding-bottom: 21px;
     margin: 0px;
     border: 1px solid #cccccc;
     background-color: #4aaaa5;
@@ -29,6 +31,8 @@ ol {
     list-style-type: none;
     display: inline-block;
     padding-left: 337px;
+    
+    
 
 }
 
@@ -42,6 +46,7 @@ li a{
     font-size: 50px solid #777777;
     text-decoration: none;
     padding-left:  40px;
+    
 }
 
 a:link {
@@ -87,6 +92,7 @@ div {
 }
 
 hr {
+    width: 100%;
     height: 2px;
     border: o;
     border-top: 1px solid #cccccc;
@@ -102,7 +108,7 @@ hr {
     float: left,top;
 }
 
-p,form { 
+p { 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-bottom: 15px;
     font-size: 50px solid #777777;
@@ -110,16 +116,25 @@ p,form {
     overflow: auto;
 }
 
+input {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font-size: 50px solid #777777;
+    overflow: auto;
+
+}
+
 .footer {
-    position: sticky;
-    left: 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #666666;
-    color: white;
     border-top: 8px solid#4aaaa5;
+    background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
     text-align: center;
 }
 
@@ -128,5 +143,4 @@ p,form {
     border: none;
     width: 0px;
     float: right;
-    
-  }
+}
