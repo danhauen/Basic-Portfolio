@@ -5,12 +5,21 @@ body {
 
 header {   
     width: 100%;
-    max-height: 79px;
+   
     background-color: #ffffff;
     border: 1px solid #cccccc;
     display: inline-block;
     
 }
+
+.container {
+    max-width: 960px;
+    max-height: 79px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,7 +39,7 @@ header {
 ol {
     list-style-type: none;
     display: inline-block;
-    padding-left: 337px;
+    
     
     
 
@@ -127,7 +136,6 @@ input {
 
 
 
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -141,8 +149,10 @@ input {
 }
 
 .clearfix {
-    overflow: hidden;
+    overflow: auto;
     border: none;
-    width: 0px;
-    float: right;
+   float: right;
+   width: auto;
+    padding-top: 14px;
+    padding-right: 240px;
 }
